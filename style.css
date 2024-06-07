@@ -1,0 +1,87 @@
+/* body{
+     */
+/* } */
+@font-face {
+    font-family: 'DigitalJots';
+    src: url('./fonts/DigitalJots.ttf');
+}
+
+body {
+    font-family: 'DigitalJots', sans-serif;
+    font-size: 50px;
+}
+button{
+    font-size: 30px;
+}
+#toggle{
+    
+    font-size: 40px;
+}
+input{
+    width: 20px;
+    height: 20px;
+}
+#rule {
+    width: 800px;
+    height: 500px;
+    font-size: 30px;
+    background-color: lightgray;
+    border: 1px solid gray;
+    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 850px;
+    top: 350px;
+}
+#attack {
+    width: 500px;
+    height: 50px;
+    /* background-color: lightgray;
+    border: 1px solid gray; */
+    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 850px;
+    top: 10px;
+}
+#score {
+    width: 500px;
+    height: 50px;
+    /* background-color: lightgray;
+    border: 1px solid gray; */
+    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 850px;
+    top: 65px;
+}
+#level {
+    width: 500px;
+    height: 50px;
+    /* background-color: lightgray;
+    border: 1px solid gray; */
+    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 850px;
+    top: 120px;
+}
+#info {
+    width: 500px;
+    height: 270px;
+    /* background-color: lightgray;
+    border: 1px solid gray; */
+    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 1200px;
+    top: 10px;
+}
+/* #offscreenwidth{
+    width: 100px;
+    height: 20px;
+}
+#offscreenheight{
+    width: 100px;
+    height: 20px;
+} */

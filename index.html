@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>WebPage Title </title>
+</head>
+
+<body onload="main()">
+    <link rel="stylesheet" href="style.css">
+    <canvas id="webgl" width="800" height="800">
+        Please use a browser that support "canvas"
+    </canvas>
+    <script src="cuon-matrix.js"></script>
+    <script src="parseFile.js"></script>
+    <script src="draw.js"></script>
+    <script src="key.js"></script>
+    <script src="tetrisInit.js"></script>
+    <script src="tetris.js"></script>
+    <script src="webglInit.js"></script>
+    <script src="WebGL.js"></script>
+    <div id="attack">ATK:0</div>
+    <div id="score">SCORE:0</div>
+    <div id="level">LEVEL:0</div>
+    <div id="info"></div>
+    <div id="rule">
+        Rule:<br>
+            you can only move the pieces in specific ways; <br>
+            your game is over if  your pieces reach the top of the screen; <br>
+            and you can only remove pieces from the screen by filling all the blank space in a line.<br>
+        Control:<br>
+            1.use left and right arrow key move the block<br>
+            2.use Z and up arrow key rotate the block<br>
+            3.use C to hold the block(you can use only one time before the block touch the ground)<br>
+            4.use down arrow key to speed up falling<br>
+            5.use space key to let block drop on ground<br>
+            6.use 'p' to pause the game<br> 
+            7.use 'r' to restart the game<br> 
+            8.use "wasd" to move your location<br>
+            9.use '/','*' to flying up, down<br> 
+            10.use 'F' to switch third and first person<br>
+            11.use mouse to Control your facing<br> 
+
+    </div>
+    <div id="toggle">
+        <label for="toggle">Reflection</label>
+        <input type="checkbox" id="reflect" checked/>
+
+        <label for="toggle">Refraction</label>
+        <input type="checkbox" id="refract" checked />
+
+        <label for="toggle">PreviewBlock</label>
+        <input type="checkbox" id="preview" checked />
+    </div>
+    <div id="person">THIRD PERSON</div>
+    <!-- <div><img src="https://static.wikia.nocookie.net/tos/images/2/2f/001i.png/revision/latest/scale-to-width-down/80?cb=20140709005649&path-prefix=zh"></div> -->
+    <!-- <div>
+        <input type="text" id="offscreenwidth" placeholder="1024">
+        <label> x </label>
+        <input type="text" id="offscreenheight" placeholder="1024">
+    </div> -->
+</body>
+
+</html>
